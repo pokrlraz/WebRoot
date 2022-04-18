@@ -1,0 +1,139 @@
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.flex-container {
+    display: flex;
+    height: 400px;
+    align-items: top;
+}
+
+.col-container {
+    display: table; /* Make the container element behave like a table */
+    width: 80%; /* Set full-width to expand the whole page */
+}
+
+.col {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+} 
+
+Body{
+    background-color: cornsilk;
+}
+div {
+    border: solid;
+}
+.nav{
+    overflow: hidden;
+    background-color: #333;
+}
+.nav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.foo1 a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .foo1{
+    overflow: hidden;
+    background-color: #333;
+}
+.foo1 a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.foo1 a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+@media only screen and (min-width: 100px) {
+    /* For tablets: */
+
+    /* this will change the container class background to red when tablet*/
+
+    .col {
+        background-color: lavenderblush;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: will change the container class to orange*/
+
+    .col {
+        background-color: lightgray;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    /* For desktop: will change the container class to orange*/
+
+    .col {
+        background-color: lightgoldenrodyellow;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    /* For desktop: will change the container class to orange*/
+
+    .col {
+        background-color: lavender;
+    }
+}
+
+/* Orientation of landscape */
+
+@media only screen and (orientation: landscape) {
+    /* this will change the background to light blue when view is landscape */
+    /* background-color: lavender;*/
+} 
+#Welcome{
+    text-align: center;
+    background-color: #04AA6D;
+}
+
+/*
+@media only screen and (max-width: 576px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .col {
+        display: block;
+        width: 80%;
+    }
+}
+
+*/
+
